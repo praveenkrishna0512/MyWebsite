@@ -9,7 +9,7 @@
 body {
   background-color: var(--clr-bg);
   padding:50px;
-  // font: 15px/1.5 Helvetica, sans-serif;
+  font: 15px/1.5 Helvetica, sans-serif;
   color: var(--clr-text);
   font-weight:400;
 }
@@ -217,25 +217,25 @@ footer {
 
 // Self Input CSS Styles
 
-// .left-column-borders {
-//   float: left;
-//   width: 50%;
-//   // padding: 10px;
-//   border-top-style: none;
-//   border-right: var(--border-width) dotted var(--code-888888);
-//   border-bottom-style: none;
-//   border-left-style: none;
-// }
+.left-column-borders {
+  float: left;
+  width: 50%;
+  // padding: 10px;
+  border-top-style: none;
+  border-right: var(--border-width) dotted var(--code-888888);
+  border-bottom-style: none;
+  border-left-style: none;
+}
 
-// .right-column-borders {
-//   float: right;
-//   width: 50%;
-//   // padding: 10px;
-//   border-top-style: none;
-//   border-right-style: none; 
-//   border-bottom-style: none;
-//   border-left: var(--border-width) dotted var(--code-888888);
-// }
+.right-column-borders {
+  float: right;
+  width: 50%;
+  // padding: 10px;
+  border-top-style: none;
+  border-right-style: none; 
+  border-bottom-style: none;
+  border-left: var(--border-width) dotted var(--code-888888);
+}
 
 .column {
   padding: 0px;
