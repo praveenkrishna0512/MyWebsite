@@ -41,16 +41,30 @@ _Apr 2019 - Feb 2021_
 <div class="row" style="margin-top: 20px;">
   <div class="column left">
     <h2 id="education">Education</h2>
-      <p><strong>Bachelor Of Computing <br/>(Computer Science)</strong> <br/>
-      National University of Singapore <br/>
-      <em>Aug 2021 - Present</em> <br/>
-      Current GPA: 4.80</p> 
-      <p><strong>Honours in Chemistry, <br/>Major in Physics and Mathematics</strong> <br/>
-      NUS High School <br/>
-      <em>Jan 2013 - Dec 2018</em> <br/>
-      Graduating GPA: 4.70</p>
+      <p>
+        <strong>Bachelor Of Computing <br/>(Computer Science)</strong> <br/>
+        National University of Singapore <br/>
+        <em>Aug 2021 - Present</em> <br/>
+        Current GPA: 4.80 <br/>
+        <!-- Relevant Modules (+ Grade) <br/>
+        - CS1101 Programming <br/>
+        &nbsp;&nbsp;Methodology (A) <br/>
+        - CS1231 Discrete Structures (A) <br/> -->
+        <p>
+          Relevant Modules (+ Grade)
+          <ul>
+            <li>CS1101 Programming <br/>Methodology (A)</li>
+            <li>CS1231 Discrete Structures (A)</li>
+          </ul>
+        </p>
+      </p>
       <br/>
-      <br/>
+      <p>
+        <strong>Honours in Chemistry, <br/>Major in Physics and Mathematics</strong> <br/>
+        NUS High School <br/>
+        <em>Jan 2013 - Dec 2018</em> <br/>
+        Graduating GPA: 4.70
+      </p>
   </div>
   <div class="column right">
     <h2 id="key-skills">Key skills</h2>
@@ -74,7 +88,7 @@ _Apr 2019 - Feb 2021_
   </div>
 </div>
 
-<hr style="margin-top: 30px">
+<hr style="margin-top: 40px">
 
 ## Personal Projects
 
