@@ -10,6 +10,6 @@ plugins:
   - jekyll-seo-tag
   - jemoji
 
-baseurl: "praveenkrishna"
+baseurl: ""
 github_username: praveenkrishna0512
 github: [metadata]
