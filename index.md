@@ -2,122 +2,96 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Welcome!
 
-[Link to another page](./another-page.html).
+My name is Praveen and I am an enthusiastic computer science student eager to explore, learn and hone my technical skills.
 
-There should be whitespace between paragraphs.
+I have previous experience with agile methodology, design thinking processes and product development. 
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+I am very passionate about uplifting communities and a huge fan of tech for good initiatives.
 
-# Header 1
+<hr>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Professional Experience
 
-## Header 2
+**IT Innovation and UX Research Intern** <br/>
+Singapore Police Force <br/>
+_May 2021 - Jul 2021_
+*  Designed a static website for internal use within the SPF intranet using HTML, JavaScript, and CSS
+*  Involved in user research and product development of IT software used by frontline officers
+*  Developed a user-friendly design tools handbook to guide police officers with project ideas
+*  Engaged in discussions with stakeholders and Senior Management
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+**Programmes Associate** <br/>
+Access Singapore <br/>
+_Feb 2021 - Present_
+*  Designed and helmed career exploration programmes for underprivileged secondary students across Singapore, including a workshop at Jurong Secondary School for 120 Normal stream students.
+*  Oversaw mentor recruitment and training for 16 industry professionals, in preparation for our mentorship programmes
 
 
-### Definition lists can be used with HTML syntax.
+**Platoon Commander** <br/>
+Singapore Armed Forces <br/>
+_Apr 2019 - Feb 2021_
+*  Commissioned as a Second Lieutenant from Officer Cadet School after 9 months of rigorous training involving two three-week-long overseas exercises.
+*  Assumed command of 61 recruits in Basic Military Training Centre, overseeing the imparting of basic military skills and soldier development.
+*  Managed a team of 4 section commanders to run various pieces of training and exercises for recruits daily.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+<hr>
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+<div class="row" style="margin-top: 20px;">
+  <div class="column left">
+    <h2 id="education">Education</h2>
+      <p><strong>Bachelor Of Computing <br/>(Computer Science)</strong> <br/>
+      National University of Singapore <br/>
+      <em>Aug 2021 - Present</em> <br/>
+      Current GPA: 4.80</p> 
+      <p><strong>Honours in Chemistry, <br/>Major in Physics and Mathematics</strong> <br/>
+      NUS High School <br/>
+      <em>Jan 2013 - Dec 2018</em> <br/>
+      Graduating GPA: 4.70</p>
+      <br/>
+      <br/>
+  </div>
+  <div class="column right">
+    <h2 id="key-skills">Key skills</h2>
+      <strong>Languages</strong>
+      <ul>
+        <li>Proficient: Python</li>
+        <li>Familiar: Java, Javascript, HTML, CSS</li>
+      </ul>
+      <strong>Frameworks and Tools</strong>
+      <ul>
+        <li>Web development: Jekyll</li>
+        <li>Wireframing: Figma</li>
+        <li>IDEs: Android Studio, VSCode, IntelliJ, PyCharm</li>
+      </ul>
+      <strong>Other notable skillsets</strong>
+      <ul>
+        <li>Design Thinking</li>
+        <li>Leadership</li>
+        <li>Research &amp; Data Analysis</li>
+      </ul>
+  </div>
+</div>
 
-```
-The final element.
-```
+<hr style="margin-top: 30px">
+
+## Personal Projects
+
+**Calorie Calculator**
+* Designed a diet tracker application using Android Studio and Java to calculate caloric values of meat and fruits, and log meal entries
+
+**SHAN House Jio Cup Score Manager**
+* Created a JSON parse program in Python to track and update scores and player attributes for a college welfare event involving 120 simultaneous players
+
+**Snake Game**
+* Implemented a fully functional “snake game” with GUI, using python and tkinter
+
+<hr>
+
+## Awards
+* NUS Merit Scholarship (2019)
+* MOE Leadership and Service Award (EAGLES) (2018)
+* NUS High School Outstanding Service Award (2018)
+
+
