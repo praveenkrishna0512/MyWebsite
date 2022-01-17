@@ -8,7 +8,7 @@ My name is Praveen and I am an enthusiastic computer science student eager to ex
 
 I have previous experience with agile methodology, design thinking processes and product development. 
 
-I am very passionate about uplifting communities and a huge fan of tech for good initiatives.
+Passionate about uplifting communities, I wish to explore how tech can be harnessed for the greater good.
 
 <hr>
 
