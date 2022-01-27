@@ -46,15 +46,11 @@ _Apr 2019 - Feb 2021_
         National University of Singapore <br/>
         <em>Aug 2021 - Present</em> <br/>
         Current GPA: 4.80 <br/>
-        <!-- Relevant Modules (+ Grade) <br/>
-        - CS1101 Programming <br/>
-        &nbsp;&nbsp;Methodology (A) <br/>
-        - CS1231 Discrete Structures (A) <br/> -->
         <p>
-          Relevant Modules (+ Grade)
+          Relevant Modules
           <ul>
-            <li>CS1101 Programming <br/>Methodology (A)</li>
-            <li>CS1231 Discrete Structures (A)</li>
+            <li>CS1101 Programming <br/>Methodology</li>
+            <li>CS1231 Discrete Structures</li>
           </ul>
         </p>
       </p>
