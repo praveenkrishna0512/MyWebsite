@@ -1,5 +1,5 @@
 title: Praveen Krishna
-logo: assets\img\prof pic 10-edited.jpg
+logo: assets\img\linkedin-profpic-cropped.jpg
 email: praveenkrishna0512@gmail.com
 description: Welcome to my official webpage!
 show_downloads: false
@@ -10,5 +10,5 @@ plugins:
   - jekyll-seo-tag
   - jemoji
 
-baseurl: "praveenkrishna"
+baseurl: "/praveenkrishna"
 github_username: praveenkrishna0512
