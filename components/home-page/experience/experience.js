@@ -7,18 +7,18 @@ function Experience() {
   return (
     <section className={classes.experience}>
       <div className={classes.header}>
-        <h2>Experiences</h2>
+        <h2>My Experiences</h2>
       </div>
       <div className={classes.content}>
-        <div className={classes.techContent}>
+        <div className={classes.indivContent}>
           <h4>Industry Experience</h4>
           <ListView experiences={experiences["industry"]} rectangleHeight="200px" itemWidth="250px"/>
         </div>
-        <div className={classes.leadershipContent}>
+        <div className={classes.indivContent}>
           <h4>{`Leadership and Social work`}</h4>
           <ListView experiences={experiences["others"]} rectangleHeight="185px" itemWidth="250px"/>
         </div>
-        <div className={classes.techContent}>
+        <div className={classes.indivContent}>
           <h4>Personal Projects</h4>
           <ListView experiences={experiences["personal"]} rectangleHeight="130px" itemWidth="200px"/>
         </div>

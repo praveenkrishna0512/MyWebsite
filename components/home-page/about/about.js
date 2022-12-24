@@ -7,35 +7,53 @@ import Hobby from "./hobby";
 function About() {
   return (
     <section className={classes.about}>
-      <div className={classes.header}>
+      {/* <div className={classes.header}>
         <h2>About</h2>
-      </div>
+      </div> */}
       <div className={classes.content}>
         <div className={classes.contentLeft}>
-          <p>
-            <em>Live meaningfully, without regrets.</em>
-          </p>
-          <p>
-            Easier said than done, but it is a motto that I see value in
-            striving towards.
-          </p>
+          <div className={classes.landingTextBox}>
+            <h2>
+              <em>Live meaningfully, without regrets.</em>
+            </h2>
+            <p>
+              Easier said than done, but it is a motto that I see value in
+              striving towards.
+            </p>
+          </div>
           <div className={classes.icons}>
             <FontAwesomeIcon icon={faSnowflake} inverse />
             <FontAwesomeIcon icon={faSnowflake} inverse />
             <FontAwesomeIcon icon={faSnowflake} inverse />
           </div>
-          <p>
-            {`Hi! I'm Praveen, a sophomore studying Computer Science at NUS :)`}
-          </p>
-          <p>
-            I find meaning improving the lives of others through the development
-            of technology. Specifically, I hope to contribute towards tech
-            solutions for problems surrounding{" "}
-            <b>healthcare, food security and public transportation</b>.
-          </p>
+          <div
+            className={classes.landingTextBox}
+            style={{
+              width: "75%",
+              "align-self": "center",
+              "font-size": "var(--size-5)",
+            }}
+          >
+            <p>
+              {`Hi! I'm Praveen, a sophomore studying Computer Science at NUS :)`}
+            </p>
+            <p>
+              I find meaning improving the lives of others through the
+              development of technology.
+            </p>
+            <p>
+              Specifically, I hope to contribute towards ML-powered solutions
+              for <b>healthcare</b>.
+            </p>
+          </div>
+        </div>
+        <div className={classes.icons}>
+          <FontAwesomeIcon icon={faSnowflake} inverse />
+          <FontAwesomeIcon icon={faSnowflake} inverse />
+          <FontAwesomeIcon icon={faSnowflake} inverse />
         </div>
         <div className={classes.contentRight}>
-          <h4>My hobbies!</h4>
+          <h2>My hobbies!</h2>
           <div className={classes.hobbies}>
             <Hobby
               title="Gym"
@@ -59,8 +77,12 @@ function About() {
             />
           </div>
         </div>
+        <div className={classes.icons}>
+          <FontAwesomeIcon icon={faSnowflake} inverse />
+          <FontAwesomeIcon icon={faSnowflake} inverse />
+          <FontAwesomeIcon icon={faSnowflake} inverse />
+        </div>
       </div>
-      <hr></hr>
     </section>
   );
 }
