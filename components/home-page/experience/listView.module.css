@@ -1,0 +1,54 @@
+.listview {
+  width: 100%;
+  height: 100%;
+}
+
+.rectangle {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 180px;
+  /* border: 4px dashed var(--color-primary-600); */
+  box-shadow: 1px 1px 10px var(--color-primary-400);
+  border-radius: 10px;
+  z-index: 0;
+  padding: 15px 5px 15px 5px;
+  overflow: auto;
+}
+
+/* width */
+.rectangle::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.rectangle::-webkit-scrollbar-track {
+  
+  border-radius: 20px;
+}
+
+/* Handle */
+.rectangle::-webkit-scrollbar-thumb {
+  background: var(--color-primary-800);
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle on hover */
+.rectangle::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-700);
+}
+
+.text {
+  padding: 0px 5% 0px 5%;
+  text-align: left;
+}
+
+.text h5 {
+  margin: 0px 0px 0px 0px;
+}
+
+.text i {
+  font-size: var(--size-3);
+  color: var(--color-grey-200);
+}

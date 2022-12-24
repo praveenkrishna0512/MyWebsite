@@ -1,0 +1,15 @@
+.tag {
+  width: fit-content;
+  height: fit-content;
+  font-size: 0.85rem;
+  color: var(--color-grey-100);
+  padding: 1px 7px 1px 7px;
+  box-shadow: 1px 1px 3px var(--color-grey-200);
+  border-radius: 8px;
+  border: 1px solid var(--color-grey-200);
+  background-image: linear-gradient(
+    to top,
+    hsl(180, 100%, 15%),
+    hsl(180, 100%, 21%)
+  );
+}

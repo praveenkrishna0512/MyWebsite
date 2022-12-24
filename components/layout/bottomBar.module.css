@@ -1,0 +1,22 @@
+.header {
+  height: 3vh;
+  background-color: var(--color-grey-900);
+  padding: 5px 10px 5px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: linear-gradient(
+    to left,
+    var(--color-primary-800),
+    var(--color-primary-700)
+  );
+  /* z-index: 2; */
+  margin: 20px 0px 0px 0px;
+  box-shadow: 0px 0px 20px var(--color-grey-600);
+}
+
+.header i {
+  margin: 0px;
+  font-size: 0.60rem;
+}

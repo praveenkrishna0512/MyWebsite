@@ -1,0 +1,55 @@
+.hobby {
+  display: grid;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  grid-template-rows: 100%;
+  grid-template-columns: 20% 10% 70%;
+}
+
+.rectangle {
+  width: 100%;
+  height: 55%;
+  border: 2px solid var(--color-primary-600);
+  box-shadow: 1px 1px 3px var(--color-primary-400);
+  border-radius: 10px;
+  grid-row: 1;
+  grid-column: 2 / span 2;
+  z-index: 0;
+}
+
+.image {
+  width: 30%;
+  height: 60%;
+  grid-row: 1;
+  grid-column: 1 / span 3;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--color-grey-700);
+  margin: 0px 0px 0px 0px;
+  z-index: 1;
+}
+
+.image img {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  grid-row: 1;
+  grid-column: 3;
+  padding: 0px 5% 0px 5%;
+  text-align: left;
+}
+
+.text h5 {
+  margin: 0px 0px 0px 0px;
+}
+
+.text i {
+  font-size: var(--size-3);
+  color: var(--color-grey-200);
+}

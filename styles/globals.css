@@ -1,26 +1,119 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+main {
+  width: 100%;
+  height: 100%;
+  float: right;
+  padding: 0px 40px 0px 40px;
+}
+
+body {
+  --color-white: #ffffff;
+
+  --color-grey-50: hsl(265, 55%, 96%);
+  --color-grey-100: hsl(265, 19%, 88%);
+  --color-grey-200: hsl(265, 7%, 70%);
+  --color-grey-300: hsl(265, 6%, 66%);
+  --color-grey-400: hsl(265, 4%, 57%);
+  --color-grey-500: hsl(265, 3%, 53%);
+  --color-grey-600: hsl(265, 4%, 42%);
+  --color-grey-700: hsl(265, 4%, 31%);
+  --color-grey-800: hsl(276, 5%, 20%);
+  --color-grey-900: hsl(280, 5%, 13%);
+
+  --color-tags: #FFE9E8;
+
+  /* --color-primary-50: #c8b3ce;
+  --color-primary-100: #a07aaa;
+  --color-primary-200: #884c97;
+  --color-primary-300: #843897; */
+
+  --color-primary-400: #9CAF88;
+  /* --color-primary-500: hsl(180, 50%, 27%); */
+  --color-primary-600: hsl(180, 85%, 30%);
+  --color-primary-700: hsl(180, 100%, 13%); /* Hex: #004242 */
+  --color-primary-800: hsl(180, 100%, 10%); /* Hex: #003333 */
+  --color-primary-900: hsl(180, 50%, 10%);
+
+  --colour-complementary-700: #420000;
+
+  --color-success-100: #a2f0bc;
+  --color-success-500: #12bd4b;
+
+  --color-error-100: #f1acc9;
+  --color-error-500: #a10c4a;
+
+  --size-1: 0.25rem;
+  --size-2: 0.5rem;
+  --size-3: 0.75rem;
+  --size-4: 1rem;
+  --size-5: 1.25rem;
+  --size-6: 1.5rem;
+  --size-8: 2rem;
+  --size-10: 2.5rem;
+  --size-12: 3rem;
+  --size-16: 4rem;
+  --size-20: 5rem;
+  --size-40: 10rem;
+  /* height: 100%; */
+  /* background-color: var(--color-primary-800); */
+  color: #252525;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  /* background: linear-gradient(var(--color-primary-900), var(--color-primary-800)) fixed; */
+  background: radial-gradient(var(--color-primary-700), var(--color-primary-800), var(--color-primary-900)) fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--color-grey-50);
+}
+
+h2 {
+  font-size: var(--size-8);
+}
+
+h3 {
+  font-size: var(--size-6);
+}
+
+h4 {
+  font-size: var(--size-5);
+}
+
+h5 {
+  font-size: var(--size-4);
+}
+
+h6 {
+  font-size: var(--size-3);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  border-width: 0;
+  color: var(--color-grey-200);
+  background-color: var(--color-grey-200);
+  margin: 30px 0px;
 }

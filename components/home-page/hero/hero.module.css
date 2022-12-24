@@ -1,0 +1,68 @@
+.hero {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; */
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 175px;
+  justify-items: center;
+}
+
+.header {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.header h2 {
+  width: 250px;
+  text-align: center;
+  margin: 0px 10px;
+  padding: 10px 20px;
+  font-size: var(--size-8);
+  color: var(--color-grey-50);
+  border:1px solid white;
+  /* border-style: inset; */
+  border-radius: 50px;
+}
+
+.lineLeft {
+  border-bottom: 3px dotted var(--color-grey-50);
+  width: 22%;
+  transform: translate(-37%) rotate(30deg);
+  transform-origin: left;
+  grid-area: 2 / 1 / 2 / 1;
+  align-self: flex-start;
+}
+
+.lineRight {
+  border-bottom: 3px dotted var(--color-grey-50);
+  width: 22%;
+  transform: translate(37%) rotate(-30deg);
+  transform-origin: right;
+  grid-area: 2 / 1 / 2 / 1;
+  align-self: flex-start;
+}
+
+.exploringIntersections {
+  grid-area: 2 / 1 / 2 / 1;
+  align-self: end;
+  opacity: 1;
+}
+
+.exploringIntersections h3 {
+  text-align: center;
+  margin: 0px 10px;
+  padding: 10px 20px;
+  font-size: var(--size-6);
+  color: var(--color-grey-50);
+  border: 1px solid white;
+  /* border-style: inset; */
+  border-radius: 50px;
+}

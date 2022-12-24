@@ -1,0 +1,72 @@
+{
+  "industry": [
+    {
+      "title": "Frontend Developer",
+      "company": "Interseed.co",
+      "type": "Freelance",
+      "tags": ["Web Dev"],
+      "startDate": "Mar 2022",
+      "endDate": "Present"
+    },
+    {
+      "title": "Software Developer Intern",
+      "company": "Terraformers",
+      "type": "Internship",
+      "tags": ["Web3", "Flutter"],
+      "startDate": "May 2022",
+      "endDate": "Jul 2022"
+    },
+    {
+      "title": "UI/UX Research and Innovation Intern",
+      "company": "Singapore Police Force",
+      "type": "Internship",
+      "tags": ["Design Thinking", "Web Dev"],
+      "startDate": "May 2021",
+      "endDate": "Jul 2021"
+    }
+  ],
+  "personal": [
+    {
+      "title": "Guess Your Digit!",
+      "company": null,
+      "type": null,
+      "tags": ["Machine Learning"],
+      "startDate": "Nov 2022",
+      "endDate": null
+    },
+    {
+      "title": "JustShareLah!",
+      "company": null,
+      "type": null,
+      "tags": ["Flutter", "Firebase"],
+      "startDate": "Apr 2022",
+      "endDate": "Aug 2022"
+    },
+    {
+      "title": "Shan Royale Bot",
+      "company": null,
+      "type": null,
+      "tags": ["Telegram Bot"],
+      "startDate": "Jul 2022",
+      "endDate": "Aug 2022"
+    },
+    {
+      "title": "Jio Cup",
+      "company": null,
+      "type": null,
+      "tags": ["Script"],
+      "startDate": "Aug 2021",
+      "endDate": "Sep 2021"
+    }
+  ],
+  "others": [
+    {
+      "title": "Head of Programmes",
+      "company": "Access Singapore",
+      "type": "Volunteer",
+      "tags": ["Leadership", "Social Mobility"],
+      "startDate": "Feb 2021",
+      "endDate": "Present"
+    }
+  ]
+}
