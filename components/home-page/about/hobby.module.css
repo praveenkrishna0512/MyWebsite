@@ -53,3 +53,28 @@
   font-size: var(--size-3);
   color: var(--color-grey-200);
 }
+
+@media (max-width: 768px) {
+  .rectangle {
+    height: 90%
+  }
+
+  .image {
+    height: 100%
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+  .hobby {
+    grid-template-columns: 30% 5% 65%;
+  }
+  
+  .text {
+    padding: 0px 5% 0px 15%;
+  }
+
+  .image {
+    height: 55%;
+    width: 40%;
+  }
+}

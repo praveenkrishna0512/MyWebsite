@@ -78,7 +78,7 @@ export default function MainNavigationBarMobile() {
         <ul>
           {menuItems.map(({ href, title }) => (
             <li key={title} className={classes.navItem}>
-              <Link href={href}>{title}</Link>
+                <Link href={href} onClick={toggleNav}>{title}</Link>
             </li>
           ))}
         </ul>
