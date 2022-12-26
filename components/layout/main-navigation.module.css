@@ -29,6 +29,7 @@
   flex-direction: column;
   margin: 70px 0px;
   padding: 0;
+  gap: 0.5rem;
 }
 
 .header li {
@@ -37,7 +38,7 @@
 
 .header a {
   color: var(--color-grey-200);
-  font-size: var(--size-4);
+  font-size: var(--size-5);
   padding: inherit;
   margin: inherit;
 }
@@ -57,12 +58,26 @@
   margin: 0px 10px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1024px) {
+  .contactIcons{
+    /* font-size: var(--size-2); */
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    display: grid;
+    row-gap: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
   .header ul {
     gap: 0.5rem;
   }
 
   .header a {
-    font-size: var(--size-5);
+    font-size: var(--size-4);
+  }
+
+  .header {
+    display: none;
   }
 }

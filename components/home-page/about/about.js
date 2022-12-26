@@ -30,7 +30,6 @@ function About() {
             className={classes.landingTextBox}
             style={{
               width: "75%",
-              "align-self": "center",
               "font-size": "var(--size-5)",
             }}
           >
