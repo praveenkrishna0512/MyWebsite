@@ -11,7 +11,7 @@ function About() {
         <h2>About</h2>
       </div> */}
       <div className={classes.content}>
-        <div className={classes.contentLeft}>
+        <div className={classes.allTextBox}>
           <div className={classes.landingTextBox}>
             <h2>
               <em>Live meaningfully, without regrets.</em>
@@ -27,12 +27,7 @@ function About() {
             <FontAwesomeIcon icon={faSnowflake} inverse />
           </div>
           <div
-            className={classes.landingTextBox}
-            style={{
-              width: "75%",
-              "font-size": "var(--size-5)",
-            }}
-          >
+            className={classes.paragraphTextBox}>
             <p>
               {`Hi! I'm Praveen, a sophomore studying Computer Science at NUS :)`}
             </p>
@@ -51,7 +46,7 @@ function About() {
           <FontAwesomeIcon icon={faSnowflake} inverse />
           <FontAwesomeIcon icon={faSnowflake} inverse />
         </div>
-        <div className={classes.contentRight}>
+        <div className={classes.hobbiesBox}>
           <h2>My hobbies!</h2>
           <div className={classes.hobbies}>
             <Hobby

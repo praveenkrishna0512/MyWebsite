@@ -52,3 +52,9 @@
   font-size: var(--size-3);
   color: var(--color-grey-200);
 }
+
+@media (max-width: 1058px) {
+  .rectangle {
+    height: 225px !important;
+  }
+}

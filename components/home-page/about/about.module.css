@@ -36,7 +36,22 @@
   margin: 0px;
 }
 
-.contentLeft {
+.paragraphTextBox {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 0px 60px 0px;
+  width: 75%;
+  font-size: var(--size-5);
+}
+
+.paragraphTextBox h2 {
+  margin: 0px;
+}
+
+.allTextBox {
   width: 100%;
   text-align: justify;
   text-justify: inter-word;
@@ -57,7 +72,7 @@
   margin: 40px 0px 50px 0px;
 }
 
-.contentRight {
+.hobbiesBox {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -67,7 +82,7 @@
   align-items: center;
 }
 
-.contentRight h4 {
+.hobbiesBox h4 {
   margin: 10px 0px 0px 0px;
   height: 10%;
 }
@@ -91,9 +106,14 @@
     row-gap: 20px;
   }
 
-  .contentRight {
+  .hobbiesBox {
     height: 120vh;
     padding: 15vh 0px 30vh 0px;
+  }
+
+  .paragraphTextBox {
+    width: 100%;
+    font-size: var(--size-4);
   }
 
 }
@@ -105,7 +125,7 @@
     row-gap: 20px;
   }
 
-  .contentRight {
+  .hobbiesBox {
     height: 120vh;
     padding: 15vh 0px 30vh 0px;
   }
