@@ -18,6 +18,7 @@
   overflow: hidden;
   background-color: var(--color-primary-900);
   margin: 0px 0px 0px 0px;
+  font-size: var(--size-1);
 }
 
 .image img {
