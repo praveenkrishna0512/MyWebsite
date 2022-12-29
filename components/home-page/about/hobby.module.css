@@ -55,7 +55,54 @@
   color: var(--color-grey-200);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
+
+  .hobby {
+    width: 100%;
+  }
+
+  .rectangle {
+    height: 95%;
+  }
+
+  .image {
+    height: 100%;
+    width: 30%;
+  }
+
+  .text i {
+    font-size: 0.70rem;
+  }
+
+  .text {
+    padding: 0px 5% 0px 3%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 450px) {
+  .hobby {
+    width: 90%;
+  }
+
+  .rectangle {
+    height: 95%;
+  }
+
+  .image {
+    height: 100%;
+    width: 30%;
+  }
+  
+  .text i {
+    font-size: 0.70rem;
+  }
+
+  .text {
+    padding: 0px 5% 0px 3%;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
   .rectangle {
     height: 90%
   }
