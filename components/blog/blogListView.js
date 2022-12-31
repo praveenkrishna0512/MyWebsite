@@ -1,15 +1,28 @@
 import classes from "./blogListView.module.css";
 import Image from "next/image";
 import BlogListItem from "./blogListItem";
+import { useEffect, useState } from "react";
+import getBlog from "../../lib/helper";
+import Link from "next/link";
 
-function BlogListView({ blogs }) {
+function BlogListView() {
+  const [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    const blogsPromise = getBlog();
+    blogsPromise.then((blogs) => setBlogs(blogs));
+  });
+
   return (
     <div className={classes.listview}>
       <div className={classes.rectangle}>
         {blogs.map((blog) => (
-          <div key={`${blog.id}`}>
-            <BlogListItem blog={blog}/>
-          </div>
+          <>
+            <Link key={`${blog.id}`} className={classes.link} href={`/blog/${blog.id}`}>
+              <BlogListItem blog={blog} />
+            </Link>
+            <hr />
+          </>
         ))}
       </div>
     </div>

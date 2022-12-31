@@ -7,32 +7,11 @@ function BlogListItem({ blog }) {
   return (
     <div className={classes.rectangle}>
       <div className={classes.text}>
-        <h5>{blog.title}</h5>
-        {/* <div className={classes.tags}>
-          {blog.tags.map((tag) => (
-            <Tag key={tag} tag={tag}></Tag>
-          ))}
-        </div> */}
-        {/* <Markdown>
-          {blog.post}
-        </Markdown> */}
-        {blog.type ? (
-          <i style={{ margin: "7px 0px 0px 0px" }}>{blog.type}</i>
-        ) : (
-          <></>
-        )}
-        {blog.company ? (
-          <i style={{ margin: "3px 0px 0px 0px" }}>{blog.company}</i>
-        ) : (
-          <></>
-        )}
-        {blog.startDate ? (
-          <i style={{ margin: "3px 0px 0px 0px" }}>
-            {blog.startDate} {blog.endDate ? ` - ${blog.endDate}` : <></>}
-          </i>
-        ) : (
-          <></>
-        )}
+        <h4>{blog.title}</h4>
+        <h5>{blog.datePosted}</h5>
+        <div className={classes.preview}>
+          <p>{blog.content}</p>
+        </div>
       </div>
     </div>
   );
