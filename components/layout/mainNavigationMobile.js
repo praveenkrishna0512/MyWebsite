@@ -84,7 +84,7 @@ export default function MainNavigationBarMobile() {
         </ul>
         <div className={classes.contactIcons}>
           {contactIcons.map(({ href, icon }) => (
-            <a href={href} key={icon} target="_blank" rel="noreferrer">
+            <a href={href} key={`${icon}-${href}`} target="_blank" rel="noreferrer">
               <FontAwesomeIcon className={classes.icon} icon={icon} inverse />
             </a>
           ))}

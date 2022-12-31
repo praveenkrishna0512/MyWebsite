@@ -10,6 +10,7 @@ function Logo() {
           alt="Me vibing below my block"
           width={100}
           height={100}
+          priority={true}
         />
       </div> 
       {`Praveen\nK`}
