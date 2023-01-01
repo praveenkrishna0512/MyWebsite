@@ -9,9 +9,17 @@ function BlogListView() {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
+    // const req = {
+    //   method: "GET",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    // };
+    // const blogsPromise = handler(req, {})
+    // blogsPromise.then((res) => setBlogs(res.data));
     const blogsPromise = getBlog();
     blogsPromise.then((blogs) => setBlogs(blogs));
-  });
+  }, []);
 
   return (
     <div className={classes.listview}>
