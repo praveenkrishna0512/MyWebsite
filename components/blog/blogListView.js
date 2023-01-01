@@ -17,6 +17,7 @@ function BlogListView() {
     // };
     // const blogsPromise = handler(req, {})
     // blogsPromise.then((res) => setBlogs(res.data));
+    // TODO: Get From MongoDB
     const blogsPromise = getBlog();
     blogsPromise.then((blogs) => setBlogs(blogs));
   }, []);
