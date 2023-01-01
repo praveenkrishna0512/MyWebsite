@@ -72,6 +72,12 @@
   margin: 40px 0px 50px 0px;
 }
 
+.icon {
+  font-size: 16px;
+  height: 16px;
+  color: var(--color-grey-50)
+}
+
 .hobbiesBox {
   display: flex;
   flex-direction: column;

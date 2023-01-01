@@ -1,4 +1,4 @@
-import { faSnowflake } from "@fortawesome/free-solid-svg-icons";
+import { faSnowflake, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import classes from "./about.module.css";
@@ -22,12 +22,23 @@ function About() {
             </p>
           </div>
           <div className={classes.icons}>
-            <FontAwesomeIcon icon={faSnowflake} inverse />
-            <FontAwesomeIcon icon={faSnowflake} inverse />
-            <FontAwesomeIcon icon={faSnowflake} inverse />
+            <FontAwesomeIcon
+              className={classes.icon}
+              icon={faSnowflake}
+              inverse
+            />
+            <FontAwesomeIcon
+              className={classes.icon}
+              icon={faSnowflake}
+              inverse
+            />
+            <FontAwesomeIcon
+              className={classes.icon}
+              icon={faSnowflake}
+              inverse
+            />
           </div>
-          <div
-            className={classes.paragraphTextBox}>
+          <div className={classes.paragraphTextBox}>
             <p>
               {`Hi! I'm Praveen, a sophomore studying Computer Science at NUS :)`}
             </p>
@@ -42,9 +53,21 @@ function About() {
           </div>
         </div>
         <div className={classes.icons}>
-          <FontAwesomeIcon icon={faSnowflake} inverse />
-          <FontAwesomeIcon icon={faSnowflake} inverse />
-          <FontAwesomeIcon icon={faSnowflake} inverse />
+          <FontAwesomeIcon
+            className={classes.icon}
+            icon={faSnowflake}
+            inverse
+          />
+          <FontAwesomeIcon
+            className={classes.icon}
+            icon={faSnowflake}
+            inverse
+          />
+          <FontAwesomeIcon
+            className={classes.icon}
+            icon={faSnowflake}
+            inverse
+          />
         </div>
         <div className={classes.hobbiesBox}>
           <h2>My hobbies!</h2>
@@ -72,9 +95,21 @@ function About() {
           </div>
         </div>
         <div className={classes.icons}>
-          <FontAwesomeIcon icon={faSnowflake} inverse />
-          <FontAwesomeIcon icon={faSnowflake} inverse />
-          <FontAwesomeIcon icon={faSnowflake} inverse />
+          <FontAwesomeIcon
+            className={classes.icon}
+            icon={faSnowflake}
+            inverse
+          />
+          <FontAwesomeIcon
+            className={classes.icon}
+            icon={faSnowflake}
+            inverse
+          />
+          <FontAwesomeIcon
+            className={classes.icon}
+            icon={faSnowflake}
+            inverse
+          />
         </div>
       </div>
     </section>
