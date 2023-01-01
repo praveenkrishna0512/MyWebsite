@@ -29,11 +29,11 @@ function BlogContent({ id, title, author, datePosted, content }) {
         <h1>{title}</h1>
         <h5>Written by: {author}</h5>
         <h5>{datePosted}</h5>
-        <p className={classes.body}>
+        <div className={classes.body}>
           {content.map((paragraph, i) => (
             <p key={i}>{paragraph}</p>
           ))}
-        </p>
+        </div>
       </div>
     </div>
   );
