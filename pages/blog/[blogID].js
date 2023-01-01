@@ -15,7 +15,7 @@ export default function BlogPage({ fallback, data }) {
 }
 
 function BlogContent({ id, title, author, datePosted, content }) {
-  
+
   if (!content) {
     return (
       <div className={classes.wrapper}>
