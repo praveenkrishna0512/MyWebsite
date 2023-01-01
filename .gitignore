@@ -6,3 +6,5 @@ vendor
 Gemfile.lock
 *.gem
 .jekyll-cache
+node_modules
+.env.local
